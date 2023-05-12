@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop v.1</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- 'Prefetch' precarga la siguiente pagina que el usuario visitará-->
+    <link rel="prefetch" href="index.html" as="document">
+    
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">   
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="cabeza">
+        <div class="barra">
+            <a class="logo centrar-texto" href="index.html"> 
+                <h1 class="logo_nombre no-margen">Esquina<span class="logo_bold ">DelCafé</span></h1>
+            </a>
+
+            <nav class="nave">
+                <a href="productos.html" class="nave_enlace">Productos</a>
+                <a href="nosotros.html" class="nave_enlace">Nosotros</a>
+                <a href="cursos.html" class="nave_enlace">Cursos</a>
+                <a href="contacto.html" class="nave_enlace">Contacto</a>
+            </nav>
+        </div>
+        
+        <div class="header-texto">
+            <h2 class="no-margen">Coffee Shop con consejos y cursos</h2>
+            <a class="no-margen">Aprende de los expertos y ordena en línea</a>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Nuestros Próximos Cursos y Talleres</h3>
+        
+        <div class="curso">
+            <div class="curso__imagen">
+                <img loading="lazy" src="img/curso1.jpg" alt="Imagen del curso">
+            </div>
+    
+            <div class="curso__info">
+                <h4 class="no-margen">Técnicas de Extracción de Café</h4>
+                <p class="curso__label">Precio:
+                    <span class="curso__info">Gratis</span>
+                </p>
+
+                <p class="curso__label">Cupo:
+                    <span class="curso__info">20</span>
+                </p>
+
+                <p class="curso__descripcion">
+                    Fusce ut libero metus. Duis ornare nunc erat, vitae viverra lectus venenatis eget. 
+                    Integer interdum varius arcu, vitae tristique lectus facilisis at. Nullam ante nisi, 
+                    efficitur ornare lacus et, congue pulvinar massa. Fusce ultrices tempus nunc eget hendrerit. 
+                </p>
+            </div> <!-- .curso__info -->
+        </div> <!-- .curso -->
+
+        <div class="curso">
+            <div class="curso__imagen">
+                <img loading="lazy" src="img/curso2.jpg" alt="Imagen del curso">
+            </div>
+    
+            <div class="curso__info">
+                <h4 class="no-margen">Taller para Tostar y Moler Granos</h4>
+                <p class="curso__label">Precio:
+                    <span class="curso__info">Gratis</span>
+                </p>
+
+                <p class="curso__label">Cupo:
+                    <span class="curso__info">20</span>
+                </p>
+
+                <p class="curso__descripcion">
+                    Fusce ut libero metus. Duis ornare nunc erat, vitae viverra lectus venenatis eget. 
+                    Integer interdum varius arcu, vitae tristique lectus facilisis at. Nullam ante nisi, 
+                    efficitur ornare lacus et, congue pulvinar massa. Fusce ultrices tempus nunc eget hendrerit. 
+                </p>
+            </div> <!-- .curso__info -->
+        </div> <!-- .curso -->
+
+        <div class="curso">
+            <div class="curso__imagen">
+                <img loading="lazy" src="img/curso3.jpg" alt="Imagen del curso">
+            </div>
+    
+            <div class="curso__info">
+                <h4 class="no-margen">4 Recetas de Café para Principiantes</h4>
+                <p class="curso__label">Precio:
+                    <span class="curso__info">Gratis</span>
+                </p>
+
+                <p class="curso__label">Cupo:
+                    <span class="curso__info">20</span>
+                </p>
+
+                <p class="curso__descripcion">
+                    Fusce ut libero metus. Duis ornare nunc erat, vitae viverra lectus venenatis eget. 
+                    Integer interdum varius arcu, vitae tristique lectus facilisis at. Nullam ante nisi, 
+                    efficitur ornare lacus et, congue pulvinar massa. Fusce ultrices tempus nunc eget hendrerit. 
+                </p>
+            </div> <!-- .curso__info -->
+        </div> <!-- .curso -->
+        
+        
+    </main>
+
+    <footer class="pies">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo_nombre no-margen centrar-texto">Esquina<span class="logo_bold">DelCafé</span></h1>
+                </a>
+
+                <nav class="nave">
+                    <a href="productos.html" class="nave_enlace">Productos</a>
+                    <a href="nosotros.html" class="nave_enlace">Nosotros</a>
+                    <a href="cursos.html" class="nave_enlace">Cursos</a>
+                    <a href="contacto.html" class="nave_enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

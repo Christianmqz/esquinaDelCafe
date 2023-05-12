@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop v.1</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- 'Prefetch' precarga la siguiente pagina que el usuario visitará-->
+    <link rel="prefetch" href="index.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">   
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="cabeza">
+        <div class="barra">
+            <a class="logo centrar-texto" href="index.html"> 
+                <h1 class="logo_nombre no-margen">Esquina<span class="logo_bold ">DelCafé</span></h1>
+            </a>
+
+            <nav class="nave">
+                <a href="productos.html" class="nave_enlace">Productos</a>
+                <a href="nosotros.html" class="nave_enlace">Nosotros</a>
+                <a href="cursos.html" class="nave_enlace">Cursos</a>
+                <a href="contacto.html" class="nave_enlace">Contacto</a>
+            </nav>
+        </div>
+        
+        <div class="header-texto">
+            <h2 class="no-margen">Coffee Shop con consejos y cursos</h2>
+            <a class="no-margen">Aprende de los expertos y ordena en línea</a>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto"> Entrada del Blog</h3>
+
+        <div class="entrada">
+            <div class="entrada__imagen">
+                <img src="img/Sucursal1.png" alt="Entrada curso">
+            </div>
+
+            <div class="entrada__descripcion">
+                <p>
+                    Nulla aliquam, risus in cursus interdum, elit nulla lobortis turpis, sit amet blandit tortor nulla eget nunc. 
+                    Nunc tincidunt lorem sodales, ullamcorper leo ac, aliquam justo. Ut at dictum lectus. Maecenas sed orci sit 
+                    amet justo ullamcorper congue. Phasellus ut mi non sem dictum tristique et non risus. Pellentesque habitant 
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque posuere ligula sed augue 
+                    ultricies, vel egestas nisi fringilla. Suspendisse eget dui ut nisi tempus tincidunt sed ac magna. Maecenas quis 
+                    eros non augue auctor faucibus aliquet ac dolor. Duis gravida aliquam mi, vehicula sagittis tortor egestas ut. 
+                    Proin dapibus gravida nunc nec dignissim. Phasellus varius consequat tellus, id suscipit augue posuere et. 
+                    Etiam molestie neque lorem, eu dapibus arcu tincidunt vel. Mauris vel risus justo. Phasellus ut bibendum ligula.
+                </p>
+
+                <p>
+                    Sed pellentesque erat a sodales convallis. Ut a molestie felis. Pellentesque et metus sem. Nulla ac nibh vitae 
+                    orci gravida interdum vel condimentum mauris. Duis bibendum odio fringilla tellus molestie luctus. Pellentesque 
+                    justo eros, tincidunt nec lorem vel, tempus semper augue. Phasellus mattis interdum dolor, vitae luctus mauris 
+                    ultrices quis. Cras feugiat purus eu velit venenatis, tristique molestie purus accumsan.
+                </p> 
+
+                <p>
+                    Nam at neque tortor. Nulla porttitor, ipsum sit amet euismod dapibus, urna eros suscipit lectus, non fringilla 
+                    elit leo id nulla. Quisque eros dolor, tristique id tellus id, interdum fringilla massa. Curabitur in orci 
+                    cursus, efficitur enim sit amet, tristique ex. Cras euismod massa vel ante euismod rhoncus. Proin non eros sit 
+                    amet neque lobortis sodales. Nam quis lectus diam. Nulla sed ex nisi. Maecenas eu consequat nunc, fermentum fermentum 
+                    sem. Praesent vel nulla mollis, dictum elit venenatis, scelerisque enim. Praesent augue arcu, porta sit amet arcu 
+                    sit amet, dictum pellentesque tellus. Cras nec diam a dolor consequat egestas. Donec gravida sem magna, eu malesuada 
+                    nisi facilisis eu. Nulla bibendum eleifend dapibus. Maecenas quis quam est. Maecenas non diam viverra, accumsan 
+                    nibh eu, posuere tellus.
+                </p>
+
+                <p>
+                    Nam vestibulum hendrerit nunc, sit amet viverra est facilisis in. Phasellus eros mauris, mattis ac felis eu, 
+                    pellentesque dapibus velit. Suspendisse non fringilla lacus, nec venenatis nulla. Nam dapibus, turpis et euismod 
+                    hendrerit, elit augue luctus felis, ac interdum diam libero a leo. Phasellus a volutpat arcu. Sed finibus eleifend 
+                    tellus, a condimentum ex congue nec. Sed bibendum turpis tellus. Nunc ac luctus nibh, et finibus odio. Morbi porttitor 
+                    sem gravida nisl varius, quis facilisis felis maximus. Nulla rutrum risus eget leo lobortis, id cursus est pharetra. 
+                    Aenean tincidunt tortor odio, in dictum ipsum condimentum quis. In interdum condimentum nibh sed facilisis. 
+                    Maecenas sapien augue, aliquet quis velit non, tincidunt egestas ligula. Quisque at rutrum erat. Nam ut massa eu 
+                    neque pellentesque ornare.
+                </p> 
+            </div> <!-- .entrada__descripcion -->
+        </div> <!-- .entrada -->
+    </main>
+
+    <footer class="pies">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo_nombre no-margen centrar-texto">Esquina<span class="logo_bold">DelCafé</span></h1>
+                </a>
+
+                <nav class="nave">
+                    <a href="productos.html" class="nave_enlace">Productos</a>
+                    <a href="nosotros.html" class="nave_enlace">Nosotros</a>
+                    <a href="cursos.html" class="nave_enlace">Cursos</a>
+                    <a href="contacto.html" class="nave_enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

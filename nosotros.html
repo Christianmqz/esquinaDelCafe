@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop v.1</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- 'Prefetch' precarga la siguiente pagina que el usuario visitará-->
+    <link rel="prefetch" href="index.html" as="document">
+    
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">   
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="cabeza">
+        <div class="barra">
+            <a class="logo centrar-texto" href="index.html"> 
+                <h1 class="logo_nombre no-margen">Esquina<span class="logo_bold ">DelCafé</span></h1>
+            </a>
+
+            <nav class="nave">
+                <a href="productos.html" class="nave_enlace">Productos</a>
+                <a href="nosotros.html" class="nave_enlace">Nosotros</a>
+                <a href="cursos.html" class="nave_enlace">Cursos</a>
+                <a href="contacto.html" class="nave_enlace">Contacto</a>
+            </nav>
+        </div>
+        
+        <div class="header-texto">
+            <h2 class="no-margen">Coffee Shop con consejos y cursos</h2>
+            <a class="no-margen">Aprende de los expertos y ordena en línea</a>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Sobre Nosotros</h3>
+
+        <div class="sobre-nosotros">
+            <div class="sobre-nosotros__imagen">
+                <img src="img/nosotros.jpg" alt="imagen nosotros">
+            </div>
+
+            <div class="sobre-nosotros__texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac magna eget purus vehicula venenatis. 
+                Suspendisse luctus justo eu magna consequat rhoncus. Vestibulum tristique arcu nunc, non aliquet est congue eu. 
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus et magnis dis parturient montes, 
+                nascetur ridiculus mus. Aenean in feugiat sem, et sollicitudin elit. Etiam rhoncus ante quis augue rutrum, in iaculis turpis rhoncus. 
+                Ut et placerat tortor. Sed aliquet pellentesque elit, at euismod nunc ultricies id.</p>
+                    
+                <p>Sed in blandit neque, eu pharetra elit. Curabitur sit amet pharetra lacus. Aliquam ultricies tincidunt odio sed placerat. 
+                Pellentesque bibendum justo at metus suscipit fringilla vitae vitae mauris. Donec pretium lacus lobortis diam volutpat luctus. 
+                Donec mattis feugiat metus et viverra. Pellentesque cursus convallis commodo.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pies">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo_nombre no-margen centrar-texto">Esquina<span class="logo_bold">DelCafé</span></h1>
+                </a>
+
+                <nav class="nave">
+                    <a href="productos.html" class="nave_enlace">Productos</a>
+                    <a href="nosotros.html" class="nave_enlace">Nosotros</a>
+                    <a href="cursos.html" class="nave_enlace">Cursos</a>
+                    <a href="contacto.html" class="nave_enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
